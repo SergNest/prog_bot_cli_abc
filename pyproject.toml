@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prog-bot-cli-abc"
+version = "0.1.0"
+description = "bot proj"
+authors = ["Serhii Nesterenko <sy.nesterenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prog_bot_cli_abc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+termcolor = "^2.3.0"
+prettytable = "^3.8.0"
+prompt-toolkit = "^3.0.39"
+faker = "^19.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
