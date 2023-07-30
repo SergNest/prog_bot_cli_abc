@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "bot proj"
 authors = ["Serhii Nesterenko <sy.nesterenko@gmail.com>"]
 readme = "README.md"
-packages = [{include = "prog_bot_cli_abc"}]
+#packages = [{include = "prog_bot_cli_abc"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
